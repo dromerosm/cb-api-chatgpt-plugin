@@ -1,0 +1,17 @@
+{
+    "schema_version": "v1",
+    "name_for_human": "Crunchbase Plugin",
+    "name_for_model": "crunchbase_plugin",
+    "description_for_human": "Plugin for company information search.",
+    "description_for_model": "Plugin for company information search. You can search for companies by name and the information retrieved is their name, description, website and image.",
+    "auth": {
+        "type": "none"
+    },
+    "api": {
+        "type": "openapi",
+        "url": "/openai.json"
+    },
+    "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Crunchbase_favicon.svg/1200px-Crunchbase_favicon.svg.png",
+    "contact_email": "diego@diegoromero.es",
+    "legal_info_url": "https://diegoromero.es"
+}
