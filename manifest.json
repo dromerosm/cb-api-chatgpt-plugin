@@ -11,7 +11,7 @@
         "type": "openapi",
         "url": "/openai.json"
     },
-    "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Crunchbase_favicon.svg/1200px-Crunchbase_favicon.svg.png",
+    "logo_url": "https://diegoromero.es/wp-content/uploads/2021/10/network-icon-3-300x262.png",
     "contact_email": "example@example.com",
     "legal_info_url": "https://example.com/legal"
 }
