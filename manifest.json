@@ -2,7 +2,7 @@
     "schema_version": "v1",
     "name_for_human": "Crunchbase Plugin",
     "name_for_model": "crunchbase_plugin",
-    "description_for_human": "Plugin for company information search.",
+    "description_for_human": "Company information search provided by Crunchbase Basic API (name, description, website and image)",
     "description_for_model": "Plugin for company information search. You can search for companies by name and the information retrieved is their name, description, website and image.",
     "auth": {
         "type": "none"
@@ -11,7 +11,7 @@
         "type": "openapi",
         "url": "/openai.json"
     },
-    "logo_url": "https://diegoromero.es/wp-content/uploads/2021/10/network-icon-3-300x262.png",
+    "logo_url": "https://diegoromero.es/wp-content/uploads/2021/10/cropped-network-icon-3.png",
     "contact_email": "example@example.com",
     "legal_info_url": "https://example.com/legal"
 }
