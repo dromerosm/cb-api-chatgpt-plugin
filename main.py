@@ -36,14 +36,16 @@ async def search_company(company: Company):
         extracted_data = []
         for entity in response_data['entities']:
             extracted_entity = {
-                'name': entity['properties'].get('name', None),
-                'short_description': entity['properties'].get('short_description', None),
+                'company_name': entity['properties'].get('name', None),
+                'description': entity['properties'].get('short_description', None),
                 'website_url': entity['properties'].get('website_url', None),
                 'image_url': entity['properties'].get('image_url', None),
             }
             extracted_data.append(extracted_entity)
         # Convert the extracted data to a JSON string
         extracted_data_json = json.dumps(extracted_data)
+        print("\n", extracted_data_json)
+        
         return extracted_data_json
         # return response.json()
     else:
