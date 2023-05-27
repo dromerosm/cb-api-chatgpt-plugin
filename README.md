@@ -1,5 +1,5 @@
-# Python Starter
+# ChatGPT plugin example
 
-Quickly get started with [Python](https://www.python.org/) using this starter! 
+How to create a ChatGPT plugin from scratch and connect it to an API.
 
-- If you want to upgrade Python, you can change the image in the [Dockerfile](./.codesandbox/Dockerfile).
+In this case, we use the Basic API from [Crunchbase] (https://data.crunchbase.com/docs/crunchbase-basic-using-api)
