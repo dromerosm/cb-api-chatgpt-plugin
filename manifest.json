@@ -12,6 +12,6 @@
         "url": "/openai.json"
     },
     "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Crunchbase_favicon.svg/1200px-Crunchbase_favicon.svg.png",
-    "contact_email": "diego@diegoromero.es",
-    "legal_info_url": "https://diegoromero.es"
+    "contact_email": "example@example.com",
+    "legal_info_url": "https://example.com/legal"
 }
