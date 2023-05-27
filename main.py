@@ -28,6 +28,7 @@ async def search_company(company: Company):
         "limit": 5
     }
     response = requests.post(url, data=json.dumps(data))
+    print("\n",data,"\n")
     print(response.json())
     response_data = response.json()
     if response.status_code == 200:
