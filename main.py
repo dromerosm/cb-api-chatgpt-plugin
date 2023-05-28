@@ -43,7 +43,7 @@ async def search_company(company: Company):
             }
             extracted_data.append(extracted_entity)
         # Convert the extracted data to a JSON string
-        extracted_data_json = json.dumps(extracted_data)
+        extracted_data_json = {'results': extracted_data}
         print("\n", extracted_data_json)
         
         return extracted_data_json
