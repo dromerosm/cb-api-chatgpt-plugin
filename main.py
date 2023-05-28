@@ -46,7 +46,7 @@ async def search_company(company: Company):
         extracted_data_json = json.dumps({'results': extracted_data})
         print("\n", extracted_data_json)
         
-        return extracted_data_json
+        return {'results': extracted_data}
         # return response.json()
     else:
         raise HTTPException(status_code=400, detail="Unable to fetch data from Crunchbase API")
